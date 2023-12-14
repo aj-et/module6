@@ -8,7 +8,7 @@ To run the frontend part, open another terminal and navigate to the frontend fol
 
 The purpose of this web application project is to help both the housing manager and the tenant to set and view the available time and day for the clubhouse booking.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/Rni39iFvCF8)
 
 # Web Pages
 
