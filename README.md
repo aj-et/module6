@@ -12,7 +12,7 @@ The purpose of this web application project is to help both the housing manager 
 
 # Web Pages
 
-This web page is a one page only web app. The inputs are on the top and the calendar on the bottom. The user can see each booking made and they can only book on the time slots that are available.
+This web page is a one page only web app. The inputs will appear on the top when a date is clicked in the calendar on the bottom. The user can see each booking made and they can only book on the time slots that are available.
 
 # Development Environment
 
