@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somerset Clubhouse Reservation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="loading"  class="loading">
+    <!-- <div class="loading"> -->
+        <h1>Loading</h1>
+    </div>
+
+    <h1>Somerset Clubhouse Reservation</h1>
+
+    <div id="reservationForm" class="reservation-form disabled">
+        <h2>Make a Reservation</h2>
+        <form id="reservationForm" class="reserve-form">
+            <label for="date">Date:</label>
+            <input type="date" id="date" required><br>
+
+            <label for="name">Full name:</label>
+            <input type="text" id="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required><br>
+
+            <div class="time-container">
+                <div class="time">
+                    <label for="fromTime">From Time:</label>
+                    <input type="time" id="fromTime" required><br>
+                </div>
+
+                <div class="time">
+                    <label for="untilTime">Until Time:</label>
+                    <input type="time" id="untilTime" required><br>
+                </div>
+            </div>
+
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+    </div>
+
+    <div id="calendar"></div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.9/index.global.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
